@@ -19,15 +19,15 @@ function inkAgency() {
 }
 
 function cvEn() {
-    window.open('https://www.drkhatab.cf/cv/drkhattab-cv-en.pdf', '_blank');
+    window.open('https://github.com/shahokurdo/DrKhattab/raw/main/cv/drkhattab-cv-en.pdf', '_blank');
 }
 
 function cvKu() {
-    window.open('https://www.drkhatab.cf/cv/drkhattab-cv-ku.pdf', '_blank');
+    window.open('https://www.drkhattab.cf/cv/drkhattab-cv-ku.pdf', '_blank');
 }
 
 function cvAr() {
-    window.open('https://www.drkhatab.cf/cv/drkhattab-cv-ar.pdf', '_blank');
+    window.open('https://github.com/shahokurdo/DrKhattab/raw/main/cv/drkhattab-cv-ar.pdf', '_blank');
 }
 
 function calculate_age(dob) {
