@@ -337,6 +337,9 @@ textarea {
     .activities {
         font-size: 14px;
     }
+    .submit {
+        width: 331px;
+    }
 }
 
 @media screen and (max-width: 599px){
@@ -397,8 +400,17 @@ textarea {
     .activities {
         font-size: 10px;
     }
-}
 
+}
+@media screen and (max-width: 480px){
+    .pfp {
+        width: 200px;
+        display: block;
+    }
+    .submit {
+        width: 331px;
+    }
+}
 @media screen and (max-width: 395px) {
 
     .pfp {
@@ -434,7 +446,6 @@ textarea {
         font-size: 14px;
     }
     .submit {
-
         width: 331px;
     }
 }
