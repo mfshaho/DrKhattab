@@ -58,8 +58,6 @@ a.link:hover {
 .pfp {
     border-radius: 12%;
     width: 350px;
-    display: flex;
-    justify-content: center;
 }
 
 .line {
@@ -173,7 +171,7 @@ a.link:hover {
     font-size: 22px;
 }
 text.arabic {
-    font-family: 'Tajawal' sans-serif;
+    font-family: 'Tajawal', sans-serif;
     font-weight: 600;
 }
 
@@ -186,7 +184,7 @@ text.arabic {
 
 .r-col-heading-under {
     width: 60%;
-    height: autox;
+    height: auto;
     padding: 50px;
 }
 
@@ -220,7 +218,7 @@ text.arabic {
 }
 
 .lang {
-    font-weight: thin;
+    font-weight: 300;
     padding-right: 30px;
 }
 
@@ -306,9 +304,6 @@ textarea {
     .col {
         display: block;
     }
-    .l-col-pfp {
-        width: 0;
-    }
     .l-col-pfp-under {
         width: 100%;
     }
@@ -343,21 +338,19 @@ textarea {
 }
 
 @media screen and (max-width: 599px){
-    * {
-        margin: 0;
-    }
+
     .col {
         display: block;
     }
     .l-col-pfp {
-        padding: 0;
+        display: flex;
         justify-content: center;
-        margin: 0;
-        text-align: center;
-        padding-top: 20px;
-        padding-left: 75px;
-        padding-bottom: 25px;
+        width: auto;
     }
+    .pfp {
+
+    }
+
     .r-col-heading {
         padding: 0;
         justify-content: center;
@@ -404,23 +397,17 @@ textarea {
 }
 @media screen and (max-width: 480px){
     .pfp {
-        width: 200px;
-        display: block;
+        width: 80%;
     }
+
     .submit {
         width: 331px;
     }
 }
 @media screen and (max-width: 395px) {
 
-    .pfp {
-        width: 200px;
-        display: block;
-    }
     .l-col-pfp {
-        padding-top: 50px;
-        padding-left: 97.5px;
-        padding-bottom: 50px;
+
     }
 
     .r-col-heading {
