@@ -3,12 +3,15 @@
 }
 
 html {
-    margin-top: 125px;
+    padding-top: 100px;
     font-family: 'Outfit', sans-serif;
     color: #3d3d3d;
-    background-color: #3d3d3d;
     scroll-behavior: smooth;
 }
+body {
+    background: linear-gradient(to right, #434343 0%, black 100%);
+}
+
 .footer {
     color: #dcdde1;
     font-size: 1.15rem;
@@ -41,7 +44,7 @@ a.link:hover {
 }
 .col {
     display: flex;
-    background-color: #dcdde1;
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     margin-bottom: 100px;
 }
 
@@ -187,11 +190,16 @@ text.arabic {
     height: auto;
     padding: 50px;
 }
-
+.pdf {
+    font-size: 12px;
+    margin-right: 10px;
+}
 .pointer {
     cursor: pointer;
 }
-
+.none {
+    display: none;
+}
 .pointer:hover {
     color: #3498db;
     text-decoration: underline;
@@ -306,7 +314,9 @@ textarea {
         width: auto;
     }
     .r-col-heading {
+        width: 80%;
         padding: 0;
+        padding-bottom: 50px;
         justify-content: center;
         margin: auto;
         text-align: center;
@@ -317,6 +327,12 @@ textarea {
         padding-top: 80px;
         padding-left: 80px;
         padding-bottom: 80px;
+    }
+    .summary-headline {
+        text-align: left;
+    }
+    .summary-content {
+        text-align: left;
     }
     .r-col-heading-under {
         width: 90%;
@@ -372,11 +388,15 @@ textarea {
 
     .r-col-heading {
         padding: 0;
+        padding-bottom: 50px;
         justify-content: center;
         margin: auto;
         text-align: center;
     }
-
+    .summary-content {
+        font-size: 14px;
+        text-align: left;
+    }
     .l-col-pfp-under {
         width: 80%;
         padding: 0;
